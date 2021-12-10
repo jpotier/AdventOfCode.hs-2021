@@ -1,0 +1,20 @@
+name: adventofcode
+
+ghc-options: -Wall
+
+dependencies:
+  - base == 4.*
+  - text
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - AoC.Day1
+    - AoC.Day2
+
+executable:
+  source-dirs: executable
+  main: Main.hs
+  dependencies:
+    - adventofcode
+    - haskell-say # needed until I have my own haddocks
