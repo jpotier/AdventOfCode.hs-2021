@@ -14,6 +14,7 @@ library
   exposed-modules:
       AoC.Day1
       AoC.Day2
+      AoC.Day3
   other-modules:
       Paths_adventofcode
   hs-source-dirs:

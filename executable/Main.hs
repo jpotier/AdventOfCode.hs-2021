@@ -2,6 +2,7 @@ module Main where
 
 import qualified AoC.Day1  as Day1
 import qualified AoC.Day2  as Day2
+import qualified AoC.Day3  as Day3
 import qualified Data.Text as T
 
 main :: IO ()
@@ -11,3 +12,6 @@ main = do
   input2 <- readFile "inputs/day2"
   putStrLn $ T.unpack $ Day2.part1 (T.pack input2)
   putStrLn $ T.unpack $ Day2.part2 (T.pack input2)
+  input3 <- readFile "inputs/day3"
+  putStrLn $ T.unpack $ Day3.part1 (T.pack input3)
+  putStrLn $ T.unpack $ Day3.part2 (T.pack input3)
