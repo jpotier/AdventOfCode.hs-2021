@@ -15,7 +15,7 @@
       let
         pkgs = import nixpkgs { inherit system; };
         hp = pkgs.haskellPackages.extend (self: super: {
-          adventofcode = self.callCabal2nix "adventofcode" ./. {};
+          adventofcode = self.callCabal2nix "adventofcode"  ./. {};
         });
         hls = easy-hls.defaultPackage.${system};
       in

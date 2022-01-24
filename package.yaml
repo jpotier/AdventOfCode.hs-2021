@@ -11,6 +11,7 @@ library:
   exposed-modules:
     - AoC.Day1
     - AoC.Day2
+    - AoC.Day3
 
 executable:
   source-dirs: executable
